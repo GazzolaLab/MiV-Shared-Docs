@@ -1,35 +1,47 @@
-# About
+# Mind-in-Vitro
 
-`MiV-OS` is an open-source software project to provide modular framework for operating neuromorphic computation.
-
-## Related Projects
-
-By default, the installation only includes basic spike analysis tools. Further plugins, such as high-performance-computing (HPC) analysis or neural simulator, are still under development.
-
-| Name                 | Planed          | Description                                                   | Repo             | Current Status |
-| ----------------     | --------------- | ------------------------------------------------------------  | ---------------- | -------------- |
-| Visualizer/Interface | 2022 Q2         | Web-based interactive visualizer for spike analysis           | private          | In progress    |
-| Simulator            | 2022 Q3         | Neuron emulator                                               | private          | In progress    |
-| Reservoir Computing  | 2022 Q3         | Reservoir computing module for neuromorphic hardware/emulator |                  |                |
-
+In `Mind-in-Vitro (MiV)`, we aim to develop living neuromorphic computation framework.
 For more information on Mind *in Vitro*, see the project [website](https://mindinvitro.illinois.edu).
 
-**MiV-OS** is a *free* and *open-source* software project for the post-processing and analysis of **mind-in-vitro** project.
-
-The software is developed and maintained by the Gazzola Lab at the University of Illinois at Urbana-Champaign. For more information on the projects and what we work on, visit our [website](https://mattia-lab.com).
-
-## Installation Instruction
-
-``` bash
-pip install MiV-OS
+```mermaid
+flowchart LR
+    A{Analysis}
+    E([Simulator])
+    H([Hardware])
+    R[Reservoir</br>Computing]
+    C[Assembly</br>Calculus]
+    D[(DB)]
+    I[Interface]
+    subgraph Data Collection
+        H --> D
+        E --> D
+    end
+    subgraph Open Software
+        D <-->|HDF5| A
+        I
+    end
+    subgraph Computation
+        A --> R
+        A --> C
+    end
 ```
 
-You can also download the source code from [GitHub](https://github.com/GazzolaLab/MiV-OS) directly.
+## Projects
+
+|        Name         | Planed  | Description                                                       |                      Repo                      | Current Status |
+| :-----------------: | :-----: | ----------------------------------------------------------------- | :--------------------------------------------: | :------------: |
+| Open Software (OS)  | 2022 Q1 | Neuro-electrophysiology analysis and processing tools             | [public](https://github.com/GazzolaLab/MiV-OS) |  Open Source   |
+| Open Hardware (OH)  | 2022 Q2 | Electrophysiology open hardware project with design and protocols |                    private                     |  In Progress   |
+|      Interface      | 2022 Q2 | Web-based interactive GUI for spike analysis                      |                    private                     |  In progress   |
+|      Simulator      | 2022 Q3 | Bio-realistic neurophysiology emulator using Neuron               |                    private                     |  In progress   |
+| Reservoir Computing | 2022 Q4 | Reservoir computing module for neuromorphic hardware/emulator     |                                                |                |
+
+> The software is developed and maintained by the Gazzola Lab at the University of Illinois at Urbana-Champaign. For more information on the projects and what we work on, visit our [website](https://mattia-lab.com).
 
 ## Contribution
 
 Any contribution to this project is welcome! If you are interested or have any questions, please don't hesitate to contact us.
-If you are interested in contributing to this project, we prepared contribution guideline [here](https://github.com/GazzolaLab/MiV-OS/blob/main/CONTRIBUTING.md).
+In general, we follow typical git-workflow. We prepared detailed contribution guideline [here](https://github.com/GazzolaLab/MiV-OS/blob/main/CONTRIBUTING.md).
 
 ```{toctree}
 :maxdepth: 2
