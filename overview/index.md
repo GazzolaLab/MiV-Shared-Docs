@@ -1,9 +1,9 @@
-# Mind-in-Vitro
+# About
 
 In `Mind-in-Vitro (MiV)`, we aim to develop living neuromorphic computation framework.
 For more information on Mind *in Vitro*, see the project [website](https://mindinvitro.illinois.edu).
 
-```mermaid
+```{mermaid}
 flowchart LR
     A{Analysis}
     E([Simulator])
@@ -55,5 +55,5 @@ Contribution <https://github.com/GazzolaLab/MiV-OS/blob/main/CONTRIBUTING.md>
 :maxdepth: 2
 :caption: Background
 
-~~literature~~
+literature
 ```

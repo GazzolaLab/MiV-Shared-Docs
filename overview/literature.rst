@@ -9,3 +9,6 @@ Neuro-electrophysiology Processing
 - `Data Science for Psychology and Neuroscience — in Python <https://neuraldatascience.io/intro.html>`_
 
 ---------------
+
+References
+##########
