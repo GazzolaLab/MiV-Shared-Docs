@@ -50,3 +50,10 @@ In general, we follow typical git-workflow. We prepared detailed contribution gu
 references
 Contribution <https://github.com/GazzolaLab/MiV-OS/blob/main/CONTRIBUTING.md>
 ```
+
+```{toctree}
+:maxdepth: 2
+:caption: Background
+
+~~literature~~
+```
