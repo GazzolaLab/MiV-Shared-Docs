@@ -12,17 +12,20 @@ flowchart LR
     C[Assembly</br>Calculus]
     D[(DB)]
     I[Interface]
-    subgraph Data Collection
-        H --> D
-        E --> D
-    end
-    subgraph Open Software
-        D <-->|HDF5| A
-        I
-    end
-    subgraph Computation
-        A --> R
-        A --> C
+    subgraph Workflow
+        direction LR
+        subgraph Data Collection
+            H --> D
+            E --> D
+        end
+        subgraph Open Software
+            D <-->|HDF5| A
+            I
+        end
+        subgraph Computation
+            A --> R
+            A --> C
+        end
     end
 ```
 
