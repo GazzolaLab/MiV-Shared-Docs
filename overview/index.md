@@ -31,13 +31,13 @@ flowchart LR
 
 ## Projects
 
-|        Name         | Planed  | Description                                                       |                      Repo                      | Current Status |
-| :-----------------: | :-----: | ----------------------------------------------------------------- | :--------------------------------------------: | :------------: |
-| Open Software (OS)  | 2022 Q1 | Neuro-electrophysiology analysis and processing tools             | [public](https://github.com/GazzolaLab/MiV-OS) |  Open Source   |
-| Open Hardware (OH)  | 2022 Q2 | Electrophysiology open hardware project with design and protocols |                    private                     |  In Progress   |
-|      Interface      | 2022 Q2 | Web-based interactive GUI for spike analysis                      |                    private                     |  In progress   |
-|      Simulator      | 2022 Q3 | Bio-realistic neurophysiology emulator using Neuron               |                    private                     |  In progress   |
-| Reservoir Computing | 2022 Q4 | Reservoir computing module for neuromorphic hardware/emulator     |                                                |                |
+| Name                | Planed  | Description                                                       | Repo                                                  | Current Status |
+| :-----------------: | :-----: | ----------------------------------------------------------------- | :--------------------------------------------:        | :------------: |
+| Open Software (OS)  |         | Neuro-electrophysiology analysis and processing tools             | [public](https://github.com/GazzolaLab/MiV-OS)        | Open Source    |
+| Open Hardware (OH)  | 2022 Q2 | Electrophysiology open hardware project with design and protocols | private                                               | In Progress    |
+| Interface           | 2022 Q2 | Web-based interactive GUI for spike analysis                      | private                                               | In progress    |
+| Simulator           |         | Bio-realistic neurophysiology emulator using Neuron               | [public](https://github.com/GazzolaLab/MiV-Simulator) | Open Source    |
+| Reservoir Computing | 2022 Q4 | Reservoir computing module for neuromorphic hardware/emulator     |                                                       |                |
 
 > The software is developed and maintained by the Gazzola Lab at the University of Illinois at Urbana-Champaign. For more information on the projects and what we work on, visit our [website](https://mattia-lab.com).
 
