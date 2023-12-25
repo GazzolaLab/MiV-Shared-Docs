@@ -34,7 +34,7 @@ flowchart LR
 | Name                | Planed  | Description                                                       | Repo                                                  | Current Status |
 | :-----------------: | :-----: | ----------------------------------------------------------------- | :--------------------------------------------:        | :------------: |
 | Open Software (OS)  |         | Neuro-electrophysiology analysis and processing tools             | [public](https://github.com/GazzolaLab/MiV-OS)        | Open Source    |
-| Open Hardware (OH)  | 2022 Q2 | Electrophysiology open hardware project with design and protocols | private                                               | In Progress    |
+| Open Hardware (OH)  |         | Electrophysiology open hardware project with design and protocols | [public](https://gazzolalab.github.io/MiV-OH)         | Open Source    |
 | Interface           | 2022 Q2 | Web-based interactive GUI for spike analysis                      | private                                               | In progress    |
 | Simulator           |         | Bio-realistic neurophysiology emulator using Neuron               | [public](https://github.com/GazzolaLab/MiV-Simulator) | Open Source    |
 | Reservoir Computing | 2022 Q4 | Reservoir computing module for neuromorphic hardware/emulator     |                                                       |                |
